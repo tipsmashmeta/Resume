@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #24292e; /* Dark background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    margin-bottom: 30px; /* Add spacing between sections */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Add spacing between picture and text */
+}
+
+.profile-info {
+    text-align: center;
+}
+.profile-info h1{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #99a3ac;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #2ea44f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.section{
+        margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center links horizontally */
+
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0366d6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    .languages-tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.languages-tools img {
+    height: 30px; /* Adjust as needed */
+}
+
+/* Placeholder for stats -  Replace with actual stat image or component */
+.stats-placeholder {
+        width: 100%; /* Make sure stats take up the full width*/
+    height: 200px;
+    background-color: #333; /* Dark grey */
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 200px; /* Center text vertically */
+}
+.about-me-list {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.about-me-list li::before {
+    content: "• "; /* Add a custom bullet point */
+    color: #99a3ac;
+    margin-right: 5px;
+}
+
+.about-me-list a{
+    color: #4078c0;
+    text-decoration:none;
+}
+.about-me{
+    text-align:center;
+}
